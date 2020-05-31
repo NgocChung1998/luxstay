@@ -1,0 +1,213 @@
+h1,h2,h3,h4{
+    margin: 0;
+    font-family: Luxstay;
+}
+.btn {
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 1rem;
+    display: inline-block;
+    transition: all .3s;
+    text-align: center;
+    background: #555;
+}
+.bgsize{
+    height: 50px;
+    background-color: red;
+}
+.banner{
+    height: 50px;
+    background-color: yellow;
+}
+.header__logo{
+    // padding: 10px;
+    padding: 10px;
+   padding-bottom: 6px;
+    background: rgba(0,0,0,.04);
+    border-radius: 50%;
+}
+.header_main{
+    // margin-top: 20px;
+}
+.header{
+    padding: 10px 0;
+    border-bottom: 1px solid #f2f2f2;
+
+}
+.hmm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_box{
+    display: flex;
+ background: rgba(0, 0, 0, 0.04);
+ margin-left: 15px;
+ border-radius: 5px;
+}
+.search-location{
+    display: flex;
+    align-items: center;
+    padding: 5px 8px;
+    // border-radius: 5px;
+    width: 42%;
+    border-right: 1px solid #e7e7e7;
+
+}
+.search-location:last-child{
+    border: none;
+}
+.lo1,
+.lo2{
+    justify-content: center;
+    width: 20%;
+}
+.lo3{
+    width: 18%;
+}
+.booking__btn {
+    padding: 0 21px;
+    margin: 0 .5rem;
+    height: 36px;
+    border-radius: 4px;
+}
+.span_search{
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 8px;
+    // width: 90%;
+    outline: none;
+    border: none;
+    background-color: #f5f5f5;
+   
+}
+.title_header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.span_tit{
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.span_tit.acti{
+    position: relative;
+}
+.span_tit.acti::before{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fb9236;
+    right: -7px;
+    top: -3px;
+}
+.span_sele{
+    font-weight: 700;
+    font-size: 14px;
+    font-size: .875rem;
+    background: #f6f6f6;
+    padding: .3125rem 1.75rem .3125rem .3125rem;
+    border-radius: 2rem;
+    position: relative;
+}
+.span_sele::before{
+    position: absolute;
+    content: '';
+    border: .3125rem solid transparent;
+    border-top-color: #222;
+    right: 12px;
+    top: calc(50% - 2.5px);
+}
+.img_banner{
+    margin-top: 50px;
+}
+.img_ban{
+    height: 303px;
+    background-size: cover;
+    background-repeat: no-repeat;;
+    background-image: url(https://cdn.luxstay.com/home/slider/slider_154_1589798803.jpg);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tittle.tit{
+    margin-top: 30px;
+}
+.tittle_span{
+    font-family: Luxstay;
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-top: 0;
+    line-height: 1.25;
+}
+.p_span{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.item_img{
+    background-image: url("https://cdn.luxstay.com/home/suggestion/location_6_1572858402.png");
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item_img.play{
+    background-image: url("https://cdn.luxstay.com/home/event/event_3_1589197924.jpg");
+    height: 100%;
+}
+.item_img.play1{
+    background-image: url("https://cdn.luxstay.com/home/event/event_1_1589793157.jpg");
+    height: 100%;
+}
+.item_img.play2{
+    background-image: url("https://cdn.luxstay.com/home/event/event_1_1588058166.jpg");
+    height: 100%;
+}
+.item_img.play3{
+    background-image: url("https://cdn.luxstay.com/home/event/event_7_1584070093.jpg");
+    height: 100%;
+}
+.list_stay{
+    display: flex;
+    overflow: hidden;
+}
+.item{
+    margin-right: 10px;
+    height: 176px;
+    border-radius: 10px;
+    // background-color: red;
+    box-shadow: 2px 1px 2px 1px #c5b4b4;
+    overflow: hidden;
+
+
+}
+.item.play{
+    height: 179px;
+}
+.it1{
+    background-image: url("https://cdn.luxstay.com/home/klook/entire-houses.jpg");
+}
+.it2{
+    background-image: url("https://car-api-upload.luxstay.com/upload/file/1578020138-ZPi2R4K0yIPp-OF1fSl2CvkJ.png");
+    
+}
+.it3{
+    background-image: url("https://car-api-upload.luxstay.com/upload/file/1578020295-UDY2DCtUiCmVfgs94cOmIWUa.jpg");
+}
+.item_span{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 900;
+    display: block;
+    font-size: 20px;
+}
+.item_p{
+    font-weight: 500;
+    margin-left: 20px;
+    color: #b0b0b0;
+}
