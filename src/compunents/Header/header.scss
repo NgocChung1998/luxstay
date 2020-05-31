@@ -174,7 +174,11 @@ h1,h2,h3,h4{
 }
 .list_stay{
     display: flex;
-    overflow: hidden;
+  
+}
+.list_stay.img{
+    overflow-x: auto;
+    position: relative;
 }
 .item{
     margin-right: 10px;
@@ -210,4 +214,12 @@ h1,h2,h3,h4{
     font-weight: 500;
     margin-left: 20px;
     color: #b0b0b0;
+}
+.slick-arrow{
+//    background-color: red;
+    position: absolute;
+    z-index: 11;
+    border: none;
+    top: 50%;
+    border-radius: 50%;
 }

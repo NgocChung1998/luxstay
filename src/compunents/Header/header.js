@@ -164,8 +164,17 @@ function Header(props) {
           </p>
           {/* list click change */}
           <div className="list_img">
-            <div className="list_stay">
-            <div className="list_stay-width"></div>
+            <div className="list_stay img">
+              <button
+                class="slick-prev slick-arrow slick-disabled"
+                aria-label="Previous"
+                type="button"
+                aria-disabled="true"
+                
+              >
+                Previous
+              </button>
+              {/* <div className="list_stay-width"></div> */}
               <Col className="item play" lg={7}>
                 <div className="item_img play"></div>
               </Col>
